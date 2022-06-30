@@ -17,7 +17,7 @@ Through this process, the spaCy model is hosted on **AWS SageMaker** and can be 
 
 To create the model artifact, we could do it either offline or online. Every time we finish training a spaCy model, the trained model is actually saved into a folder. The folder usually contains the following files:
 
-*file names might be different
+*file* names might be different
 
 - meta.json
 - ner (folder)
