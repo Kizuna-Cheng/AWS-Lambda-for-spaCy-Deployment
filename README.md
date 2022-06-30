@@ -26,3 +26,5 @@ To create the model artifact, we could do it either offline or online. Every tim
 
 In terms of creating the model artifact, we could simply compress this folder into a tar.gz format and upload it to a S3 bucket. Alternatively, we could also train the model online with the AWS SageMaker by creating a training job under the SageMaker Training section. But we need to provide our custom training image from AWS ECR and training data from AWS S3 bucket.
 
+Hopefully, you are now a bit clearer about the whole workflow. More detailed steps are included in the following article: 
+https://medium.com/towards-data-science/a-custom-spacy-model-deployment-with-aws-ecr-sagemaker-lambda-72a488fe58
